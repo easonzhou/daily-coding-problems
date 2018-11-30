@@ -1,0 +1,27 @@
+{
+  "name": "daily-coding-problems",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/easonzhou/daily-coding-problems.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/easonzhou/daily-coding-problems/issues"
+  },
+  "homepage": "https://github.com/easonzhou/daily-coding-problems#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "nodemon": "^1.18.7"
+  }
+}
