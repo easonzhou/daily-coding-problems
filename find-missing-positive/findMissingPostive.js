@@ -22,7 +22,7 @@ export default function findMissingPositive(nums) {
     }
 
     for(let i = shift; i < nums.length; i++) {
-        if((Math.abs(nums[i]) - 1 >= 0) && (shift + Math.abs(nums[i]) - 1 < nums.length - 1)) {
+        if((Math.abs(nums[i]) - 1 >= 0) && (shift + Math.abs(nums[i]) - 1 < nums.length)) {
             nums[Math.abs(nums[i]) - 1 + shift] = -1 * nums[Math.abs(nums[i]) - 1 + shift];
         }
     }

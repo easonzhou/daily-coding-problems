@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "nodemon --exec babel-node main.js"
   },
   "repository": {
@@ -22,6 +22,7 @@
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-2": "^6.24.1",
+    "jest": "^23.6.0",
     "nodemon": "^1.18.7"
   }
 }
