@@ -64,14 +64,13 @@ export default function longestAbsolutePath(string) {
             i++;
         }
         if (!file) {
-            console.log(stack);
             if(!stack.length) {
                 stack.push({ level: indent, total: length});
             } else {
                 stack.push({ level: indent, total: length + stack[stack.length - 1].total});
             }
         } else {
-            let total = length + stack[stack.lenght - 1].total;
+            let total = length + stack[stack.length - 1].total;
             if (total > maxLength) {
                 maxLength = total;
             }
