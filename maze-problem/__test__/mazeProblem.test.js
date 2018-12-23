@@ -1,12 +1,12 @@
 import mazeProblem from '../mazeProblem';
 
 describe("Maze Problem", () => {
-    it("should return ", () => {
+    it("should return 7", () => {
         let board =
-            [[false, false, false, false],
-            [true, true, false, true],
-            [false, false, false, false],
-            [false, false, false, false]];
+            [[1, 1, 1, 1],
+            [0, 0, 1, 0],
+            [1, 1, 1, 1],
+            [1, 1, 1, 1]];
 
         let start = [3, 0];
         let end = [0, 0];
